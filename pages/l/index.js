@@ -34,7 +34,7 @@ export default class Blog extends Component {
             <Link href={`l/l/${post.slug}`}>
               <a>
                 <img src={post.attributes.thumbnail} />
-                <h2>{post.attributes.title}</h2>
+                <h2>{post.attributes.date}</h2>
               </a>
             </Link>
           );
